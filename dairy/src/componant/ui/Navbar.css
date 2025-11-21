@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 15px 25px;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  transition: 0.3s;
+}
+
+/* Active Link Color */
+.active-link {
+  color: blue;
+  font-weight: 700;
+  border-bottom: 2px solid blue;
+}
+
+/* Hover */
+.navbar a:hover {
+  color: #005eff;
+}
