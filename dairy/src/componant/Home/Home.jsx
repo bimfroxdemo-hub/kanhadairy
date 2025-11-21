@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <>
     {/* barner and video */}
+    <Header />
 
-    
       
     </>
   )
